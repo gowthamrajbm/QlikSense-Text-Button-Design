@@ -3,7 +3,7 @@
 Installation
 ------------
 
-Copy the Text-Button Design Folder to your Extension folder in Sense installation folder.
+Extract the files to a folder in Extensions folder in Sense installation folder.
 
 Usage
 -------
