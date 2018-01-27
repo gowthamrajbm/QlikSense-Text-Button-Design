@@ -1,0 +1,62 @@
+define(["jquery", "underscore", "ng!$http", "ng!$q", "qlik"], function($, _, $http, $q, qlik) {
+    "use strict";
+
+    return {
+			version : 1.0,
+			qHyperCubeDef : {
+				qDimensions : [],
+				qMeasures : [],
+				qInitialDataFetch : [{
+					qWidth : 10,
+					qHeight : 50
+				}],
+				qBold : false,
+				qItalic : false,
+				qHeadAlign : 'center',
+				qHeadFontsize : 12,
+				qFontCheck : false,
+				qHeadText : 'Text',
+				qHeadFont : 'black',
+				qBG : 'white',
+				qBordertop : ' none',
+				qBorderRight : ' none',
+				qBorderBottom : ' none',
+				qBorderLeft : ' none',
+				qRadiusTR : '0',
+				qRadiusBR : '0',
+				qRadiusBL : '0',
+				qRadiusTL : '0',
+				qBorderColor : 'black',
+				qBorderWidth : '0',
+				qHOffset : '0',
+				qVOffset : '0',
+				qBlur : '0',
+				qSpread : '0',
+				qBShadowColor : 'grey',
+				qTHOffset : '0',
+				qTVOffset : '0',
+				qBlurRadius : '0',
+				qTShadowColor : 'grey',
+				qNavActBG : '',
+				qNavSelect : 'none',
+				qSheetList : '',
+				qStoryList : '',
+				qLink : '',
+				qActSelect : 'none',
+				qActField : '',
+				qActFieldValue : '',
+				qVariableName : '',
+				qVariableValue : '',
+				qMouseoverBG : 'grey',
+				qMouseoverPointer : true,
+				qMouseoverSwitch : false,
+				qGradientSwitch : false,
+				qGradientDirection : '',
+				qGradientColors : 'rgb(66, 223, 244),rgb(65, 196, 244)',
+				qBGImage : '',
+				qIconPosition : 'left',
+				qIconSelect : '',
+				qIconColor : ''
+			}
+		};
+});

@@ -1,0 +1,16 @@
+/* CSS */
+*{
+	margin:0px;
+	padding:0px;
+}
+.text-head,.text-table{
+	height:100%;
+	width : 100%;
+}
+th,tr, td {
+    vertical-align: middle;
+	text-align:center;
+}
+.text-cont{
+	margin:5px;
+}
